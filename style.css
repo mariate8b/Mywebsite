@@ -164,3 +164,30 @@ h3{
     margin-left: 200px;
     margin-top: 50px;
 }
+#images-portfolio{
+    width: 500px;
+    margin-left: 500px;
+    margin-bottom: 100pxpx;
+}
+#project-paragraph{
+    width: 500px;
+    margin-right: 200px;
+    padding: 200px;
+    margin-left: 300px;
+
+   
+}
+#project-paragraph3{
+    width: 500px;
+    margin-right: 200px;
+    padding: 50px;
+    margin-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 300px;
+   float: left;
+       
+}
+#websitetext{
+    width: 500px;
+    
+}
