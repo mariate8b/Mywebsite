@@ -1,0 +1,77 @@
+/* Body Pages*/ 
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/490/121/original/wave-abstract-lines-background-line-art-png.png");
+    margin-top: 5px;
+    
+}
+#home-body{
+    background-color: blanchedalmond;
+}
+ul {
+    list-style-type: none;
+    margin: px;
+    padding: 0px;
+    color:white;
+  }
+
+li {
+    display: inline;
+    padding: 100px;
+      
+  }
+  .box{
+    background-color:beige;
+    padding: 20px; 
+   
+  }
+ 
+  #name{
+    margin-top: 50px;
+   
+}
+#home-imagine{
+    width: 300px;
+    float: inline-start;
+    margin-left: 200px; 
+    
+}
+#quote{
+    margin-right: 200px;
+    font-size: x-large;
+}
+
+table{
+    float: left;
+}
+
+#footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: beige;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 100px;
+}
+  
+#about-body{
+    background-color: blanchedalmond;
+}
+#portafolio-body{
+    background-color: blanchedalmond;
+}
+
+#email{
+    float: left;
+}
+
+
+h3{
+   float: left;
+   margin-right: 600px;
+   margin-left: 150px ;
+   padding: 10px;
+  
+}
