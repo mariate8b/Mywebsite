@@ -170,12 +170,18 @@ h3{
     margin-bottom: pxpx;
 }
 
-#project-paragraph3{
-    width: 300px;
-    float: right,center;
-    margin-left: 300px;
-
-
+#p-par{
+    margin-left: 200px;
+    padding: 50px;
+    margin-right:150px;
+    padding-left: 300px;
+    float: center;
 }
-
-
+#last-p{
+    margin-left: 200px;
+    padding: 50px;
+    margin-right:150px;
+    padding-left: 300px;
+    margin-bottom: 200px;
+    float: center;
+}
