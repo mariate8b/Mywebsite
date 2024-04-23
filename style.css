@@ -1,29 +1,35 @@
 /* Body Pages*/ 
 body {
+    padding: 0;
+    margin: 0;
+
     background-image: url("https://static.vecteezy.com/system/resources/previews/008/490/121/original/wave-abstract-lines-background-line-art-png.png");   
 }
+
 /* Styling for Home Page */
 
 #home-body{
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
+}
+img{
+
 }
 li{
     font-size: large;
 }
 a{
-    color: white;
-    border: solid;
-    background-color: black;
+    color: rgb(0, 0, 0);
+   text-decoration: none;
     padding: 5px;
     border-radius: 15px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
     
 }
 ul {
     list-style-type: none;
-    margin: px;
     padding: 0px;
-    color:white;
+    color:rgb(0, 0, 0);
   }
 
 li {
@@ -42,10 +48,10 @@ li {
    
 }
 #home-imagine{
-    width: 300px;
+    width: 500px;
     float: inline-start;
     margin-left: 200px; 
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     border-radius: 15px;
     
 }
@@ -75,10 +81,10 @@ table{
 }
   
 #about-body{
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
 }
 #portafolio-body{
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
 }
 
 #email{
@@ -125,14 +131,15 @@ h3{
 #volcan-paragraph{
     width: 800px;
     float: right;
-    margin-top: 105px;
+    margin-top: 200px;
     margin-left: px;
-    margin-right: 500px;
+    margin-right: 10px;
+    padding-left: 1 ;
     
 }
 #images-volcan{
     margin-top: 50px ;
-    width: 200px;
+    width: 400px;
     margin-left: 200px;
     border-radius: 15px;
 }
@@ -140,14 +147,15 @@ h3{
 
 #waterfall-paragraph{
     width: 600px;
+    display: flex;
     float: right;
     margin-top: 100px;
     margin-left: px;
-    margin-right: 500px;
+    margin-right: 100px;
 
 }
 #waterfall-imagine{
-    width: 200px;
+    width: 400px;
     margin-left: 300px;
     margin-top: 50px;
     margin-bottom: 100px;border-radius: 15px;
@@ -165,9 +173,10 @@ h3{
     margin-top: 50px;
 }
 #images-portfolio{
-    width: 800px;
-    margin-left: 300px;
+    width: 700px;
+    margin-left: 150px;
     margin-top: 55px;
+    margin-right: px;
     
 }
 
@@ -199,4 +208,27 @@ h3{
     margin-bottom: 50px;
     height: 100px;
     border: red;
+}
+/* Contact Page */
+#contact{
+    background-color: rgb(255, 255, 255);
+}
+form{
+    
+    margin-top: 100px;
+
+}
+input{
+    width: 300px;
+    margin-top: 10px;
+}
+#submit{
+    margin-top: 50px;
+}
+#emilbox{
+    margin-left: 50px;
+
+}
+#header-contact{
+    margin-top: 100px;
 }
