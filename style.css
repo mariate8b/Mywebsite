@@ -26,9 +26,10 @@ a{
     font-size: 25px;
     
 }
-ul {
+ul:hover, h1:hover, a:hover{
+    background-color:rgb(229, 143, 143);
     list-style-type: none;
-    padding: 0px;
+    padding: 20px;
     color:rgb(0, 0, 0);
   }
 
@@ -149,7 +150,7 @@ h3{
     width: 600px;
     display: flex;
     float: right;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: px;
     margin-right: 100px;
 
@@ -204,6 +205,7 @@ h3{
 }
 #client-comment{
     background-color: rgba(239, 162, 9, 0.745);
+    display: flex;
     padding: 50px;
     margin-bottom: 50px;
     height: 100px;
@@ -222,13 +224,16 @@ input{
     width: 300px;
     margin-top: 10px;
 }
-#submit{
-    margin-top: 50px;
+#submit:hover{
+    margin-top: 100px;
+    background-color: pink;    
 }
+
 #emilbox{
     margin-left: 50px;
-
+    
 }
 #header-contact{
     margin-top: 100px;
+   
 }
